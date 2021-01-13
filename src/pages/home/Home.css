@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+.header {
+    background: #fff;
+    padding: 100px 0 100px 0;
+}
+
+.header h1 {
+    max-width: 625px;
+    font-family: "Open Sans Condensed";
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 50px;
+    line-height: 60px;
+    color: #333333;
+    margin-top: 150px;
+}
+
+@media (max-width: 992px) {
+    .header h1 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+}
+
+.header p {
+    max-width: 557px;
+    font-family: "Open Sans Condensed";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: rgba(51, 51, 51, 0.8);
+}
+
+@media only screen and (max-width:1024px) {
+    .header p {
+       font-size: 12px; 
+       line-height: 22px;
+    }
+}
