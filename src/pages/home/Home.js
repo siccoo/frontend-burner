@@ -5,6 +5,7 @@ import "./Home.css";
 
 import HeaderImg from "../../images/lanidng-image.png";
 import Brands from "../../images/Component 7.png";
+import Video from "../../images/Rectangle 26.png";
 import { FiChevronRight } from 'react-icons/fi';
 
 const Home = () => {
@@ -31,6 +32,25 @@ const Home = () => {
                         <div className="col-md-12 text-center">
                             <p>Over 500+ companies bond teams together with Oneburner</p>
                             <img className="brands-img" src={Brands} alt="brands"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="home2">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12">
+
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-md-6">
+                            <h5>Manage team activities all in one place</h5>
+                            <p>Keep your team organized and informed with activities that are up to date.</p>
+                        </div>
+                        <div className="col-md-6">
+                            <img className="img-fluid" src={Video} alt="alternative" />
                         </div>
                     </div>
                 </div>
