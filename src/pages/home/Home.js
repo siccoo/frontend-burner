@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 
 import "./Home.css";
 
-import HeaderImg from "../../images/lanidng-image.png"
+import HeaderImg from "../../images/lanidng-image.png";
+import Brands from "../../images/Component 7.png";
 import { FiChevronRight } from 'react-icons/fi';
 
 const Home = () => {
@@ -19,6 +20,17 @@ const Home = () => {
                         </div>
                         <div className="col-lg-6 col-xl-7">
                             <img className="img-fluid" src={HeaderImg} alt="alternative" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="home1">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12 text-center">
+                            <p>Over 500+ companies bond teams together with Oneburner</p>
+                            <img className="brands-img" src={Brands} alt="brands"/>
                         </div>
                     </div>
                 </div>

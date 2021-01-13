@@ -64,3 +64,29 @@
        padding: 10px 15px !important;
     }
 }
+
+.home1 {
+    background: #fff;
+    padding: 30px 0 30px 0;
+}
+
+.home1 p {
+    max-width: 677.22px;
+    font-family: "Open Sans Condensed";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: #01001D;
+}
+
+@media only screen and (max-width:1024px) {
+    .home1 p {
+       font-size: 12px; 
+       line-height: 22px;
+    }
+}
+
+.home1 .brands-img {
+    max-width: 100%;
+}
