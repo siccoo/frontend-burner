@@ -2,8 +2,8 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import './App.css';
 
-import Topbar from "./component/navbar/Navbar";
-import Footer from "./component/footer/Footer";
+import Topbar from "./components/navbar/Navbar";
+import Footer from "./components/footer/Footer";
 import Login from "./components/login/Login";
 
 import Home from "./pages/home/Home";

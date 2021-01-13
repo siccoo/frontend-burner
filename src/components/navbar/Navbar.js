@@ -3,9 +3,7 @@ import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 import { FiChevronDown, FiChevronRight } from "react-icons/fi";
-import Logo from "../../images/salerubyLogo.png";
-import RubyHR from "../../images/IconHR.png";
-import RubyAcademy from "../../images/IconAcad.png";
+import Logo from "../../images/burner.png";
 
 const Topbar = () => {
 
