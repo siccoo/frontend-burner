@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import "./Home.css";
 
 import HeaderImg from "../../images/lanidng-image.png"
+import { FiChevronRight } from 'react-icons/fi';
 
 const Home = () => {
     return (
@@ -14,7 +15,7 @@ const Home = () => {
                         <div className="col-lg-6 col-xl-5">
                             <h1>Collaborate with your team and get more done</h1>
                             <p>Communicate effectively with Oneburner for easy collaboration, team work and remote work.</p>
-                            <Link to="/" className="btn-solid-lg home-btn">Request a demo</Link>
+                            <Link to="/" className="btn-solid-lg">Start Free Trial <FiChevronRight/></Link>
                         </div>
                         <div className="col-lg-6 col-xl-7">
                             <img className="img-fluid" src={HeaderImg} alt="alternative" />

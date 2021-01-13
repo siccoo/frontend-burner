@@ -13,7 +13,8 @@
     font-size: 50px;
     line-height: 60px;
     color: #333333;
-    margin-top: 150px;
+    margin-top: 120px;
+    margin-bottom: 0.5em;
 }
 
 @media (max-width: 992px) {
@@ -31,11 +32,35 @@
     font-size: 20px;
     line-height: 32px;
     color: rgba(51, 51, 51, 0.8);
+    margin-bottom: 2em;
 }
 
 @media only screen and (max-width:1024px) {
     .header p {
        font-size: 12px; 
        line-height: 22px;
+    }
+}
+
+.header .btn-solid-lg {
+    max-width: 273px;
+    background: #462686;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 100px;
+    font-family: "Open Sans Condensed";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 15px 35px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+@media only screen and (max-width:1024px) {
+    .header .btn-solid-lg {
+       font-size: 14px; 
+       line-height: 16px;
+       padding: 10px 15px !important;
     }
 }
