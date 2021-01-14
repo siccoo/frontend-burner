@@ -29,9 +29,9 @@ const Contact = () => {
                                 <div class="input-group mb-3 mt-4 ">
                                     <div class="input-group-prepend">
                                     <label for="exampleInputPhoneNumber1">Phone Number</label>
-                                        <span class="input-group-text">
+                                        {/* <span class="input-group-text">
                                             <img className="" src={Flag} alt="alternative" />
-                                        </span>
+                                        </span> */}
                                     </div>
                                     <input type="tel" placeholder="+234" aria-label="Username" />
                                 </div>

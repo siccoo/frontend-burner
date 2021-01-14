@@ -28,6 +28,22 @@
     }
 }
 
+.contact-header span {
+    padding: .6em .5em;
+    background: #FFFFFF;
+    border: 1px solid #18251a26;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 50%;
+}
+
+@media (max-width: 1024px) {
+    .contact-header span {
+        padding: .4em .3em;
+        width: 100%;
+    }
+}
+
 .contact-header input[type="text"],
 input[type="email"],
 input[type="tel"] {
@@ -52,6 +68,22 @@ input[type="tel"] {
     ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
         font-size: 10px;
       }
+}
+
+.contact-header select {
+    font-family: "Roboto";
+  width: 100%;
+  background: #FFFFFF;
+    border: 2px solid rgba(51, 51, 51, 0.8);
+    box-sizing: border-box;
+    border-radius: 5px;
+  padding: .8em .5em;
+}
+
+@media only screen and (max-width: 1024px) {
+    .contact-header select {
+        width: 100%;
+    }
 }
 
 .contact-header textarea {
