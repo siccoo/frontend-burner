@@ -1,5 +1,5 @@
 import React from 'react';
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import "./Enterprise.css";
 
@@ -9,6 +9,7 @@ import List from "../../images/check-circle.png";
 import Award from "../../images/award.png";
 import Tools from "../../images/integration tools.png";
 import Africa from "../../images/africa 1.png";
+import { FiChevronRight } from 'react-icons/fi';
 
 const Enterprise = () => {
     return (
@@ -91,6 +92,30 @@ const Enterprise = () => {
                             <h6>Our Regional Presence</h6>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer </p>
                             <img className="africa" src={Africa} alt="alternative" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="enterprise5">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12 text-center">
+                            <p>Best. Product. Ever! We like Oneburner more and more each day because it makes our work a lot easier. It's just amazing. Very easy to use, impressed us on multiple levels. Thank you so much for your help and is worth much more than we paid. We were treated like royalty.</p>
+                        </div>
+                        <div className="col-md-12">
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="enterprise6">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12">
+                            <h2>Want to learn more on how we can impact your enterprise?</h2>
+                            <Link to="/contact" className="btn-solid-lg">Contact Sales <FiChevronRight/></Link>
                         </div>
                     </div>
                 </div>

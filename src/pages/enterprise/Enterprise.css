@@ -132,7 +132,7 @@
 
 .enterprise4 {
     padding: 50px 0 50px 0;
-    background: rgba(204, 204, 204, 0.1);
+    background: #cccccc1a;
 }
 
 .enterprise4 h6 {
@@ -162,4 +162,81 @@
 .enterprise4 .africa {
     margin-top: 50px;
     max-width: 40%;
+}
+
+.enterprise5 {
+    padding: 50px 0 50px 0;
+    background: #fff;
+}
+
+.enterprise5 p {
+    max-width: 1000px;
+    font-family: "Open Sans Condensed";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 60px;
+    color: #333333;
+}
+
+.enterprise6 {
+    background: #cccccc1a;
+    padding: 70px 0 70px 0;
+}
+
+.enterprise6 h5 {
+    /* max-width: 655px; */
+    font-family: "Open Sans Condensed";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+@media (max-width: 992px) {
+    .enterprise6 h5 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+}
+
+.enterprise6 p {
+    font-family: "Open Sans Condensed";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 2em;
+}
+
+@media only screen and (max-width:1024px) {
+    .enterprise6 p {
+       font-size: 12px; 
+       line-height: 20px;
+    }
+}
+
+.enterprise6 .btn-solid-lg {
+    max-width: 273px;
+    background: #462686;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 100px;
+    font-family: "Open Sans Condensed";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 15px 35px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+@media only screen and (max-width:1024px) {
+    .enterprise6 .btn-solid-lg {
+       font-size: 14px; 
+       line-height: 16px;
+       padding: 10px 15px !important;
+    }
 }
