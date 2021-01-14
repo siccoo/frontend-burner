@@ -121,7 +121,7 @@
     font-weight: normal;
     font-size: 20px;
     line-height: 32px;
-    color: rgba(69, 69, 69, 0.8);
+    color: #454545cc;
 }
 
 @media only screen and (max-width:1024px) {
