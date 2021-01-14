@@ -1,10 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from "react-router-dom";
 
 import { FiChevronRight } from "react-icons/fi";
+import { FiEye } from "react-icons/fi";
 import Logo from "../../images/burner.png";
 
 const Login = () => {
+
+    useEffect(() => {
+        document.title = " Oneburner | Login";
+    }, []);
+
     return (
         <div>
             <section className="nav-section">
@@ -38,10 +44,18 @@ const Login = () => {
                 <div className="row">
                     <div className="col-sm-12 col-md-10 offset-md-2">
                         <form>
+                            <h3>Sign In</h3>
+                            <p>Welcome Back!</p>
                             <div className="form-group">
                                 <label for="exampleInputEmail1">Email / Username</label>
                                 <input type="email"  id="email_address" />
                             </div>
+                            <div className="form-group">
+                                <label for="exampleInputEmail1">Password</label>
+                                <input type="password"  id="password" /> <FiEye className="icon"/>
+                            </div>
+                            <button type="submit" className="">Login</button>
+                            <p>Forgot Password?</p>
                         </form>
                     </div>
                 </div>
