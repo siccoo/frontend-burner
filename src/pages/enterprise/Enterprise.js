@@ -113,8 +113,8 @@ const Enterprise = () => {
             <section className="enterprise6">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-12">
-                            <h2>Want to learn more on how we can impact your enterprise?</h2>
+                        <div className="col-md-12 text-center">
+                            <h2>Want to learn more on how we can <br/>impact your enterprise?</h2>
                             <Link to="/contact" className="btn-solid-lg">Contact Sales <FiChevronRight/></Link>
                         </div>
                     </div>

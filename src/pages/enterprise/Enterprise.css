@@ -185,36 +185,21 @@
 }
 
 .enterprise6 h5 {
-    /* max-width: 655px; */
+    max-width: 870px;
     font-family: "Open Sans Condensed";
     font-style: normal;
     font-weight: bold;
     font-size: 50px;
     line-height: 60px;
     color: #FFFFFF;
+    margin: auto;
+    /* margin-bottom: 50px; */
 }
 
 @media (max-width: 992px) {
     .enterprise6 h5 {
         font-size: 25px;
         line-height: 30px;
-    }
-}
-
-.enterprise6 p {
-    font-family: "Open Sans Condensed";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
-    color: #FFFFFF;
-    margin-bottom: 2em;
-}
-
-@media only screen and (max-width:1024px) {
-    .enterprise6 p {
-       font-size: 12px; 
-       line-height: 20px;
     }
 }
 
@@ -228,9 +213,10 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 18px;
-    padding: 15px 35px;
+    padding: 10px 35px;
     color: #FFFFFF;
     text-decoration: none;
+    margin-top: 150px;
 }
 
 @media only screen and (max-width:1024px) {
