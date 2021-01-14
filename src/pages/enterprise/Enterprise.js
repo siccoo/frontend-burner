@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from "react-router-dom";
 
 import "./Enterprise.css";
@@ -12,6 +12,11 @@ import Africa from "../../images/africa 1.png";
 import { FiChevronRight } from 'react-icons/fi';
 
 const Enterprise = () => {
+
+    useEffect(() => {
+        document.title = " Oneburner | Building an Enterprise application";
+    }, []);
+
     return (
         <div>
             <section className="e-header">

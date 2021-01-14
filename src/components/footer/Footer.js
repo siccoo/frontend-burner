@@ -10,19 +10,19 @@ const Footer = () => {
             <section className="footer-section">
                 <div className="container">
                     <div className="row columns-wrapper">
-                        <div className="col text-left col-sm-4 col-md-4 col-lg-4">
+                        <div className="col-md-4 text-left">
                         <img src={Logo} alt="oneburner" className="footer-logo" />
                         </div>
-                        <div className="col text-left col-sm-3 col-md-3 col-lg-3">
+                        <div className="col-md-2">
 
                         </div>
-                        <div className="col text-left col-sm-3 col-md-3 col-lg-3">
+                        <div className="col-md-2">
 
                         </div>
-                        <div className="col text-left col-sm-3 col-md-3 col-lg-3">
+                        <div className="col-md-2">
 
                         </div>
-                        <div className="col text-left col-sm-2 col-md-2 col-lg-2">
+                        <div className="col-md-2">
 
                         </div>
                     </div>
