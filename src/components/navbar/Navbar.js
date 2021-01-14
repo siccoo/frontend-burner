@@ -40,13 +40,13 @@ const Topbar = () => {
                             </ul>
                             <ul className="navbar-nav ml-auto">
                                 <li className="nav-item">
-                                    <Link className="nav-btn1" href="/contact">Contact Sales</Link>
+                                    <Link className="nav-btn1" to="/contact">Contact Sales</Link>
                                 </li><br />
                                 <li className="nav-item">
-                                    <Link className="nav-btn1" href="/login">Log In</Link>
+                                    <Link className="nav-btn1" to="/login">Log In</Link>
                                 </li><br />
                                 <li className="nav-item">
-                                    <Link className="nav-btn" href="/">Try for Free <FiChevronRight/></Link>
+                                    <Link className="nav-btn" to="/">Try for Free <FiChevronRight/></Link>
                                 </li><br />
                             </ul>
                         </div>

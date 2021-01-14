@@ -20,6 +20,7 @@ const App = () => {
           <Route path="/contact" component={Contact} />
           <Route path="/login" component={Login} />
         </Switch>
+        <Route path="/login" component={Login} />
       <Footer />
     </Router>
   );
