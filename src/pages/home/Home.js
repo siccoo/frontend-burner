@@ -6,6 +6,11 @@ import "./Home.css";
 import HeaderImg from "../../images/lanidng-image.png";
 import Brands from "../../images/Component 7.png";
 import Video from "../../images/Rectangle 26.png";
+import Table1 from "../../images/Frame 2 1.png";
+import Table2 from "../../images/Rectangle 22.png";
+import Table3 from "../../images/Rectangle 19.png";
+import Table4 from "../../images/Rectangle 21.png";
+import Tools from "../../images/integration tools.png";
 import { FiChevronRight } from 'react-icons/fi';
 
 const Home = () => {
@@ -51,6 +56,43 @@ const Home = () => {
                         </div>
                         <div className="col-md-6">
                             <img className="img-fluid" src={Video} alt="alternative" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="home3">
+                <div className="container">
+                    <div className="row mt-2">
+                        <div className="col-md-6">
+                            <img className="img-fluid" src={Table1} alt="alternative"  />
+                        </div>
+                        <div className="col-md-6">
+                            <h6>Bring your team up to speed</h6>
+                            <p>Collaborate on project from start to finish, see information at a glance, add comment, attachment and more with Oneburner.</p>
+                        </div>
+                    </div>
+                    <div className="row mt-3">
+                        <div className="col-md-6">
+                            <h6>Automated task timeline</h6>
+                            <p>View dates, projects, calendar, sprint and more with reliability.</p>
+                        </div>
+                        <div className="col-md-6">
+                            <img className="img-fluid" src={Table2} alt="alternative"  />
+                        </div>
+                    </div>
+                    <div className="row mt-3">
+                        <div className="col-md-12 text-center">
+                            <img className="" src={Tools} alt="alternative" />
+                        </div>
+                    </div>
+                    <div className="row mt-3">
+                        <div className="col-md-6">
+                            <img className="img-fluid" src={Table4} alt="alternative"  />
+                        </div>
+                        <div className="col-md-6">
+                            <h6>Timeless report generator</h6>
+                            <p>You can generate quick report of activities of all that has to do with the daily running of your business and teams.</p>
                         </div>
                     </div>
                 </div>
