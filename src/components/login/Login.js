@@ -71,8 +71,8 @@ const Login = () => {
                             </div>
                         </form>
                     </div>
-                    <div className="col-md-12 text-center">
-                        <p>© 2020 Oneburner.com. All Rights Reserved. </p>
+                    <div className="col-md-12 ">
+                        <p className="copywright mt-5">© 2020 Oneburner.com. All Rights Reserved. </p>
                     </div>
                 </div>
             </div>
