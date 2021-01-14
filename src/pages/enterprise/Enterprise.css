@@ -129,3 +129,34 @@
     max-width: 100%;
     margin-top: 50px;
 }
+
+.enterprise4 {
+    padding: 50px 0 50px 0;
+    background: rgba(204, 204, 204, 0.1);
+}
+
+.enterprise4 h6 {
+    max-width: 417px;
+    font-family: "Open Sans Condensed";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #333333;
+}
+
+.enterprise4 p {
+    max-width: 850px;
+    font-family: "Open Sans Condensed";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: rgba(69, 69, 69, 0.9);
+}
+
+.enterprise4 .africa {
+    max-width: 40%;
+}

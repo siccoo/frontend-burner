@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 import "./Enterprise.css";
 
@@ -8,6 +8,7 @@ import Brands from "../../images/Component 7.png";
 import List from "../../images/check-circle.png";
 import Award from "../../images/award.png";
 import Tools from "../../images/integration tools.png";
+import Africa from "../../images/africa 1.png";
 
 const Enterprise = () => {
     return (
@@ -78,6 +79,18 @@ const Enterprise = () => {
                     <div className="row">
                         <div className="col-md-12 text-center mt-5">
                             <img className="tools-img" src={Tools} alt="alternative" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="enterprise4">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12 text-center">
+                            <h6>Our Regional Presence</h6>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer </p>
+                            <img className="africa" src={Africa} alt="alternative" />
                         </div>
                     </div>
                 </div>
