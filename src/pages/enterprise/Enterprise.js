@@ -6,6 +6,8 @@ import "./Enterprise.css";
 import EheaderImg from "../../images/Component 4.png";
 import Brands from "../../images/Component 7.png";
 import List from "../../images/check-circle.png";
+import Award from "../../images/award.png";
+import Tools from "../../images/integration tools.png";
 
 const Enterprise = () => {
     return (
@@ -55,6 +57,27 @@ const Enterprise = () => {
                             <p>
                                 <img className="check-list" src={List} alt="alternative" /> Enterprise integration with other tools
                             </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="enterprise3">
+                <div className="container">
+                    <div className="row">
+                        <div className=" e-wrapper">
+                            <div className="col-md-6 text-left">
+                                <img className="award" src={Award} alt="alternative" />
+                            </div>
+                            <div className="col-md-6">
+                                <h3>Best Collaboration Software</h3>
+                                <p>Africa tech coalition award 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-md-12 text-center">
+                            <img className="tools-img" src={Tools} alt="alternative" />
                         </div>
                     </div>
                 </div>
