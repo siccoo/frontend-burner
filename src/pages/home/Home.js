@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from "react-router-dom";
 
 import "./Home.css";
@@ -15,6 +15,11 @@ import Lead from "../../images/Component 3.png";
 import { FiChevronRight } from 'react-icons/fi';
 
 const Home = () => {
+
+    useEffect(() => {
+        document.title = " Oneburner | Modern Solution";
+    }, []);
+
     return (
         <div>
             <section className="header">
@@ -116,7 +121,7 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-            
+
             <section className="home4">
                 <div className="container">
                     <div className="row">

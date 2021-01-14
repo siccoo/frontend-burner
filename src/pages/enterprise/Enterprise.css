@@ -27,6 +27,7 @@
 
 .enterprise1 .brands-img {
     max-width: 100%;
+    margin-bottom: 70px;
 }
 
 .enterprise2 {
@@ -216,7 +217,6 @@
     padding: 10px 35px;
     color: #FFFFFF;
     text-decoration: none;
-    margin-top: 150px;
 }
 
 @media only screen and (max-width:1024px) {
