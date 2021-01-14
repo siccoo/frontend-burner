@@ -33,7 +33,7 @@ const Contact = () => {
                                             <img className="" src={Flag} alt="alternative" />
                                         </span>
                                     </div>
-                                    <input type="text" placeholder="+234" aria-label="Username" />
+                                    <input type="tel" placeholder="+234" aria-label="Username" />
                                 </div>
                                 <div className="form-group">
                                     <label for="exampleInputPosition1">Product of Interest</label>
