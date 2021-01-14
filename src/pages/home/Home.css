@@ -154,3 +154,46 @@
     }
 }
 
+.home3 p {
+    max-width: 593px;
+    font-family: "Open Sans Condensed";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: rgba(69, 69, 69, 0.8);
+}
+
+@media only screen and (max-width:1024px) {
+    .home3 p {
+       font-size: 12px; 
+       line-height: 22px;
+    }
+}
+
+.home3 .tools-img {
+    max-width: 100%;
+}
+
+.home4 {
+    background: #7837F8;
+    padding: 70px 0 70px 0;
+}
+
+.home4 h5 {
+    /* max-width: 655px; */
+    font-family: "Open Sans Condensed";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+@media (max-width: 992px) {
+    .home5 h5 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+}
+

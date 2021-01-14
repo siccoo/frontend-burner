@@ -11,6 +11,7 @@ import Table2 from "../../images/Rectangle 22.png";
 import Table3 from "../../images/Rectangle 19.png";
 import Table4 from "../../images/Rectangle 21.png";
 import Tools from "../../images/integration tools.png";
+import Lead from "../../images/Component 3.png";
 import { FiChevronRight } from 'react-icons/fi';
 
 const Home = () => {
@@ -63,7 +64,7 @@ const Home = () => {
 
             <section className="home3">
                 <div className="container">
-                    <div className="row mt-2">
+                    <div className="row mt-5">
                         <div className="col-md-6">
                             <img className="img-fluid" src={Table1} alt="alternative"  />
                         </div>
@@ -72,7 +73,7 @@ const Home = () => {
                             <p>Collaborate on project from start to finish, see information at a glance, add comment, attachment and more with Oneburner.</p>
                         </div>
                     </div>
-                    <div className="row mt-3">
+                    <div className="row mt-5">
                         <div className="col-md-6">
                             <h6>Automated task timeline</h6>
                             <p>View dates, projects, calendar, sprint and more with reliability.</p>
@@ -81,18 +82,47 @@ const Home = () => {
                             <img className="img-fluid" src={Table2} alt="alternative"  />
                         </div>
                     </div>
-                    <div className="row mt-3">
+                    <div className="row mt-5">
                         <div className="col-md-12 text-center">
-                            <img className="" src={Tools} alt="alternative" />
+                            <img className="tools-img" src={Tools} alt="alternative" />
                         </div>
                     </div>
-                    <div className="row mt-3">
+                    <div className="row mt-5">
                         <div className="col-md-6">
                             <img className="img-fluid" src={Table4} alt="alternative"  />
                         </div>
                         <div className="col-md-6">
                             <h6>Timeless report generator</h6>
                             <p>You can generate quick report of activities of all that has to do with the daily running of your business and teams.</p>
+                        </div>
+                    </div>
+                    <div className="row mt-5">
+                        <div className="col-md-6">
+                            <h6>Efficient lead management</h6>
+                            <p>Track and manage prospective customers. Manage their notes, emails, meetings, calls, contacts, and files.</p>
+                        </div>
+                        <div className="col-md-6">
+                            <img className="img-fluid" src={Table3} alt="alternative"  />
+                        </div>
+                    </div>
+                    <div className="row mt-5">
+                        <div className="col-md-6">
+                            <img className="img-fluid" src={Lead} alt="alternative"  />
+                        </div>
+                        <div className="col-md-6">
+                            <h6>Timeless report generator</h6>
+                            <p>You can generate quick report of activities of all that has to do with the daily running of your business and teams.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section className="home4">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12 text-center">
+                            <h5>Choose a better way to work</h5>
+                            <p>No credit card details | No additional installation | No time wasting</p>
+                            <Link to="/" className="btn-solid-lg">Start Free Trial <FiChevronRight/></Link>
                         </div>
                     </div>
                 </div>
