@@ -4,3 +4,11 @@
     background: #e1e1e1;
     padding: 70px 0 70px 0;
 }
+
+.contact-header form {
+    margin-top: 100px;
+    max-width: 851px;
+    padding: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.08);
+}
