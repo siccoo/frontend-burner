@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+.e-header {
+    background: #fff;
+    padding: 100px 0 70px 0;
+}
+
+.e-header .E-img {
+    max-width: 100%;
+}
+
+.enterprise1 p {
+    font-family: "Open Sans Condensed";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: #01001D;
+}
+
+@media only screen and (max-width:1024px) {
+    .enterprise1 p {
+       font-size: 12px; 
+       line-height: 22px;
+    }
+}
+
+.enterprise1 .brands-img {
+    max-width: 100%;
+}

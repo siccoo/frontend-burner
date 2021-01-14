@@ -9,7 +9,7 @@ const Topbar = () => {
 
     return (
             <section className="nav-section">
-                <div className="">
+                <div className="container">
                     <nav className="navbar navbar-expand-lg navbar-light nav-bg justify-content-sm-start fixed-top" >
                     <Link to={'/'} className="navbar-brand order-1 order-lg-0 ml-lg-0 ml-2 mr-auto">
                         <img src={Logo} alt="oneburner" className="home-logo" />
