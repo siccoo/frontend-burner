@@ -5,6 +5,7 @@ import "./Enterprise.css";
 
 import EheaderImg from "../../images/Component 4.png";
 import Brands from "../../images/Component 7.png";
+import List from "../../images/check-circle.png";
 
 const Enterprise = () => {
     return (
@@ -35,6 +36,25 @@ const Enterprise = () => {
                     <div className="row">
                         <div className="col-md-12">
                             <h3>How Oneburner help enterprises grow</h3>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-md-6">
+                            <p>Oneburner software solution helps your business by creating an enabling environment for easy communication and feedbacks in real time. Oneburner brings all your user and teams in a single place with 99.99% uptime SLA and Data security</p>
+                        </div>
+                        <div className="col-md-6">
+                            <p>
+                                <img className="check-list" src={List} alt="alternative" /> Data protection and control
+                            </p>
+                            <p>
+                                <img className="check-list" src={List} alt="alternative" /> Reporting and analytics
+                            </p>
+                            <p>
+                                <img className="check-list" src={List} alt="alternative" /> Use single sign-on and multi-factor authentication to secure accounts
+                            </p>
+                            <p>
+                                <img className="check-list" src={List} alt="alternative" /> Enterprise integration with other tools
+                            </p>
                         </div>
                     </div>
                 </div>
