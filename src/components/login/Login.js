@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import { Link } from "react-router-dom";
 
+import "./Login.css";
+
 import { FiChevronRight } from "react-icons/fi";
 import { FiEye } from "react-icons/fi";
 import Logo from "../../images/burner.png";
@@ -46,7 +48,7 @@ const Login = () => {
         <section className="login-card">
             <div className="container">
                 <div className="row">
-                    <div className="col-sm-12 col-md-10 offset-md-2 text-center">
+                    <div className="col-sm-12 col-md-10 offset-md-2">
                         <form>
                             <h3>Sign In</h3>
                             <p>Welcome Back!</p>
@@ -60,13 +62,16 @@ const Login = () => {
                             </div>
                             <button type="submit" className="">Login</button>
                             <p>Forgot Password?</p>
-                            <div className="text-left" id="social-icons">
+                            <div className="" id="social-icons">
                                 <img className="so-icon" src={Icon1} alt="alternative" />
                                 <img className="so-icon" src={Icon2} alt="alternative" />
                                 <img className="so-icon" src={Icon3} alt="alternative" />
                                 <img className="so-icon" src={Icon4} alt="alternative" />
                             </div>
                         </form>
+                    </div>
+                    <div className="col-md-12 text-center">
+                        <p>© 2020 Oneburner.com. All Rights Reserved. </p>
                     </div>
                 </div>
             </div>
