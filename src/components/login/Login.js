@@ -63,7 +63,7 @@ const Login = () => {
                             </div>
                             <button type="submit" className="">Login</button>
                             <p>Forgot Password?</p>
-                            <div className="" id="social-icons">
+                            <div className="" id="social-icons mt-5">
                                 <img className="so-icon" src={Icon1} alt="alternative" />
                                 <img className="so-icon" src={Icon2} alt="alternative" />
                                 <img className="so-icon" src={Icon3} alt="alternative" />

@@ -126,7 +126,7 @@
 }
 
 .login-card {
-    margin-top: 170px;
+    margin-top: 100px;
 }
 
 .login-card form {
@@ -160,6 +160,7 @@
     line-height: 27px;
     color: rgba(69, 69, 69, 0.8);
     text-align: center;
+    margin-bottom: 50px;
 }
 
 @media only screen and (max-width:1024px) {
@@ -200,4 +201,39 @@ input[type="password"] {
         padding: .4em .3em;
         width: 100%;
     }
+}
+
+.login-card button {
+    background: #462686;
+    border-radius: 50px;
+    width: 100%;
+    color: #fff;
+    font-family: "Open Sans Condensed";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 12px 15px;
+    text-decoration: none;
+    border: none;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .login-card button {
+        padding: 6px 9px;
+        font-size: 12px;
+    }
+}
+
+.login-card .social-icons {
+    position: absolute; 
+   bottom: -35px; 
+   padding: 5px;
+   margin: 0px 55px;
+   align-items: center;
+   border-radius: 5px;
+}
+
+.login-card .so-icon {
+    padding: 10px;
 }
