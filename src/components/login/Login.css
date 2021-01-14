@@ -168,3 +168,34 @@
        line-height: 22px;
     }
 }
+
+.login-card label {
+    font-family: "Open Sans Condensed";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: #333333;
+}
+
+@media (max-width: 1024px) {
+    .login label {
+        font-size: 12px;
+    }
+}
+
+.login-card input[type="email"],
+input[type="password"] {
+    padding: .6em .5em;
+    background: #FFFFFF;
+xrder-radius: 5px;
+    width: 100%;
+}
+
+@media (max-width: 1024px) {
+    .login-card input[type="email"],
+    input[type="password"] {
+        padding: .4em .3em;
+        width: 100%;
+    }
+}
