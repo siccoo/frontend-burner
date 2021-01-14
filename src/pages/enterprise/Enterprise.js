@@ -65,8 +65,8 @@ const Enterprise = () => {
             <section className="enterprise3">
                 <div className="container">
                     <div className="row">
-                        <div className=" e-wrapper">
-                            <div className="col-md-6 text-left">
+                        <div className="e-wrapper mx-auto">
+                            <div className="col-md-6 text-right">
                                 <img className="award" src={Award} alt="alternative" />
                             </div>
                             <div className="col-md-6">
