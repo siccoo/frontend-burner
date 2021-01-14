@@ -115,6 +115,7 @@ const Enterprise = () => {
                     <div className="row">
                         <div className="col-md-12 text-center">
                             <h2>Want to learn more on how we can <br/>impact your enterprise?</h2>
+                            <br/>
                             <Link to="/contact" className="btn-solid-lg">Contact Sales <FiChevronRight/></Link>
                         </div>
                     </div>
