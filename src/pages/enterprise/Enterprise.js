@@ -76,7 +76,7 @@ const Enterprise = () => {
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-md-12 text-center">
+                        <div className="col-md-12 text-center mt-5">
                             <img className="tools-img" src={Tools} alt="alternative" />
                         </div>
                     </div>
