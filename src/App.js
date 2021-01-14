@@ -18,10 +18,10 @@ const App = () => {
           <Route exact path="/" component={Home} />
           <Route path="/enterprise" component={Enterprise} />
           <Route path="/contact" component={Contact} />
-          <Route path="/login" component={Login} />
+          {/* <Route path="/login" component={Login} /> */}
         </Switch>
-        <Route path="/login" component={Login} />
       <Footer />
+      <Route path="/login" component={Login} />
     </Router>
   );
 }
