@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import "./Login.css";
 
 import { FiChevronRight } from "react-icons/fi";
-import { FiEye } from "react-icons/fi";
+// import { FiEye } from "react-icons/fi";
 import Logo from "../../images/burner.png";
 import Icon1 from "../../images/sign in.png";
 import Icon2 from "../../images/Vector (4).png";
@@ -58,7 +58,8 @@ const Login = () => {
                             </div>
                             <div className="form-group">
                                 <label for="exampleInputEmail1">Password</label>
-                                <input type="password"  id="password" /> <FiEye className="icon"/>
+                                {/* <FiEye className="icon"/> */}
+                                <input type="password"  id="password" /> 
                             </div>
                             <button type="submit" className="">Login</button>
                             <p>Forgot Password?</p>
