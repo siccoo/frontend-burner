@@ -34,7 +34,7 @@ const Enterprise = () => {
             <section className="enterprise2">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-12">
+                        <div className="col-md-12 text-center">
                             <h3>How Oneburner help enterprises grow</h3>
                         </div>
                     </div>

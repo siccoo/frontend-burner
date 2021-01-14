@@ -28,3 +28,33 @@
 .enterprise1 .brands-img {
     max-width: 100%;
 }
+
+.enterprise2 {
+    background: #7837F8;
+    padding: 40px 0 80px 0;
+}
+
+.enterprise2 h3 {
+    font-family: "Open Sans Condensed";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+@media (max-width: 992px) {
+    .enterprise2 h2 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+.enterprise2 p {
+    font-family: "Open Sans Condensed";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: #ffffffe6;
+}
