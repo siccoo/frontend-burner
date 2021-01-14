@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-export default function Login() {
+const Login = () => {
     return (
         <div>
-            This is Login Route
+            
         </div>
     )
 }
+
+export default Login;
