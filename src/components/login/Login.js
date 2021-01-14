@@ -58,8 +58,9 @@ const Login = () => {
                             </div>
                             <div className="form-group">
                                 <label for="exampleInputEmail1">Password</label>
-                                {/* <FiEye className="icon"/> */}
-                                <input type="password"  id="password" /> 
+                                
+                                <input type="password"  id="password" />
+                                {/* <span><FiEye className="icon"/></span>  */}
                             </div>
                             <button type="submit" className="">Login</button>
                             <p>Forgot Password?</p>

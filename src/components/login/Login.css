@@ -185,6 +185,26 @@
     }
 }
 
+.login-card span {
+    right: 0;
+    position: absolute;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    top: 0;
+    width: 3.2rem;  
+    box-sizing: border-box;
+}
+
+span .icon {
+    
+    /* color: #a7abc3; */
+}
+
 .login-card input[type="email"],
 input[type="password"] {
     padding: .6em .5em;
