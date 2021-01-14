@@ -191,9 +191,48 @@
 }
 
 @media (max-width: 992px) {
-    .home5 h5 {
+    .home4 h5 {
         font-size: 25px;
         line-height: 30px;
     }
 }
 
+.home4 p {
+    font-family: "Open Sans Condensed";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 2em;
+}
+
+@media only screen and (max-width:1024px) {
+    .home4 p {
+       font-size: 12px; 
+       line-height: 20px;
+    }
+}
+
+.home4 .btn-solid-lg {
+    max-width: 273px;
+    background: #462686;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 100px;
+    font-family: "Open Sans Condensed";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 15px 35px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+@media only screen and (max-width:1024px) {
+    .home4 .btn-solid-lg {
+       font-size: 14px; 
+       line-height: 16px;
+       padding: 10px 15px !important;
+    }
+}

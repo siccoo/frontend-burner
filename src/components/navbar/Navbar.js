@@ -32,7 +32,7 @@ const Topbar = () => {
                                 
                             </li><br />
                             <li className="nav-item dropdown">
-                                <Link className="nav-link" to="/" data-toggle="dropdown">Enterprise</Link>
+                                <Link className="nav-link" to="/enterprise" data-toggle="dropdown">Enterprise</Link>
                             </li><br />
                             <li className="nav-item">
                                 <Link className="nav-link" to="/pricing">Support</Link>
@@ -40,10 +40,10 @@ const Topbar = () => {
                             </ul>
                             <ul className="navbar-nav ml-auto">
                                 <li className="nav-item">
-                                    <Link className="nav-btn1" href="/">Contact Sales</Link>
+                                    <Link className="nav-btn1" href="/contact">Contact Sales</Link>
                                 </li><br />
                                 <li className="nav-item">
-                                    <Link className="nav-btn1" href="/">Log In</Link>
+                                    <Link className="nav-btn1" href="/login">Log In</Link>
                                 </li><br />
                                 <li className="nav-item">
                                     <Link className="nav-btn" href="/">Try for Free <FiChevronRight/></Link>

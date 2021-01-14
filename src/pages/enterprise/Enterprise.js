@@ -1,9 +1,13 @@
 import React from 'react'
 
-export default function Enterprise() {
+const Enterprise = () => {
     return (
         <div>
-            This is Enterprise page
+            <section >
+
+            </section>
         </div>
     )
 }
+
+export default Enterprise;
