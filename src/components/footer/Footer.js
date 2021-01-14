@@ -3,7 +3,9 @@ import React from 'react';
 const Footer = () => {
     return (
         <div>
-            This the footer page
+            <section className="footer-section">
+
+            </section>
         </div>
     )
 }
