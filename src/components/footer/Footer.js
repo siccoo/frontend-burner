@@ -20,7 +20,8 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-md-2">
                             <p>No 1 CRM solution in Africa</p>
-                            <span>Terms of Use | Privacy Policy</span>
+                            <span>Terms of Use | Privacy Policy</span><br/><br/>
+                            <span>Get in touch</span>
                         </div>
                         <div className="col-md-1"></div>
                         <div className="col-md-1"></div>
