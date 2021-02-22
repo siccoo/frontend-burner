@@ -10,6 +10,7 @@
 
 .navbar {
     padding: 5px 40px !important;
+
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
@@ -126,7 +127,7 @@
 }
 
 .login-card {
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
 .login-card form {
