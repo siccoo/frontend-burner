@@ -27,16 +27,16 @@ const Footer = () => {
                         <div className="col-md-1"></div>
                         <div className="col-md-1"></div>
                         <div className="col-md-2">
-
+                            <h6>Product</h6>
                         </div>
                         <div className="col-md-2">
-
+                            <h6>Company</h6>
                         </div>
                         <div className="col-md-2">
-
+                            <h6>Oneburner for teams</h6>
                         </div>
                         <div className="col-md-2">
-
+                            <h6>Resources</h6>
                         </div>
                     </div>
                     <div className="row">

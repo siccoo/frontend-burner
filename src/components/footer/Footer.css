@@ -21,7 +21,7 @@
     font-family: "Open Sans Condensed";
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 30px;
     color: #454545;
 }
@@ -31,4 +31,30 @@
        font-size: 14px; 
        line-height: 22px;
     }
+}
+
+.footer-section span {
+    font-family: "Open Sans Condensed";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    color: #01001d99;
+}
+
+@media only screen and (max-width:1024px) {
+    .footer-section span {
+       font-size: 12px; 
+       line-height: 18px;
+    }
+}
+
+.footer-section h6 {
+    font-family: "Open Sans Condensed";
+    font-style: normal;
+    font-weight:bold;
+    font-size: 17px;
+    line-height: 30px;
+    color: #454545;
+    text-transform: uppercase;
 }
