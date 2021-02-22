@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Topbar from "../../components/navbar/Navbar";
 import Footer from "../../components/footer/Footer";
 
@@ -7,6 +7,9 @@ import "./Contact.css";
 import Flag from "../../images/Vector (5).png";
 
 const Contact = () => {
+    useEffect(() => {
+        document.title = " Oneburner | Contact us";
+    }, []);
     return (
         <div>
             <section>
