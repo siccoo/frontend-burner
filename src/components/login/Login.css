@@ -201,10 +201,10 @@
     box-sizing: border-box;
 }
 
-span .icon {
+/* span .icon { */
     
     /* color: #a7abc3; */
-}
+/* } */
 
 .login-card input[type="email"],
 input[type="password"] {
@@ -221,6 +221,27 @@ input[type="password"] {
     input[type="password"] {
         padding: .4em .3em;
         width: 100%;
+    }
+}
+
+.login-card .forgot-password {
+    max-width: 700px;
+    font-family: "Open Sans Condensed";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: #462686;
+    margin: auto;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+    text-align: center;
+    text-decoration: none;
+    /* margin-bottom: 50px; */
+}
+
+@media only screen and (max-width:1024px) {
+    .login-card .forgot-password {
+       font-size: 12px; 
+       line-height: 22px;
     }
 }
 

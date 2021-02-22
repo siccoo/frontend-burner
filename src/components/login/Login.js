@@ -63,7 +63,7 @@ const Login = () => {
                                 {/* <span><FiEye className="icon"/></span>  */}
                             </div>
                             <button type="submit" className="">Login</button>
-                            <p>Forgot Password?</p>
+                            <Link className="forgot-password">Forgot Password?</Link>
                             <div className="" id="social-icons mt-5">
                                 <img className="so-icon" src={Icon1} alt="alternative" />
                                 <img className="so-icon" src={Icon2} alt="alternative" />
