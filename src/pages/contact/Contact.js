@@ -1,4 +1,6 @@
 import React from 'react';
+import Topbar from "../../components/navbar/Navbar";
+import Footer from "../../components/footer/Footer";
 
 import "./Contact.css";
 
@@ -7,6 +9,9 @@ import Flag from "../../images/Vector (5).png";
 const Contact = () => {
     return (
         <div>
+            <section>
+                <Topbar />
+            </section>
             <section className="contact-header">
                 <div className="container">
                     <div className="row">
@@ -73,6 +78,9 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
+            </section>
+            <section>
+                <Footer />
             </section>
         </div>
     )
