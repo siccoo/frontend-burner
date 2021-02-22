@@ -1,4 +1,6 @@
 import React, { useEffect } from 'react';
+import Topbar from "../../components/navbar/Navbar";
+import Footer from "../../components/footer/Footer";
 import { Link } from "react-router-dom";
 
 import "./Home.css";
@@ -22,6 +24,9 @@ const Home = () => {
 
     return (
         <div>
+            <section>
+                <Topbar />
+            </section>
             <section className="header">
                 <div className="container">
                     <div className="row">
@@ -132,6 +137,10 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
+            </section>
+
+            <section>
+                <Footer />
             </section>
         </div>
     )
