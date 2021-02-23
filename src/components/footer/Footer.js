@@ -14,11 +14,13 @@ const Footer = () => {
                         <div className="col-md-6 text-left">
                             <img src={Logo} alt="oneburner" className="footer-logo" />
                         </div>
-                        <div className="col-md-6 text-right">
+                        <div className="col-md-2"></div>
+                        <div className="col-md-2"></div>
+                        <div className="col-md-2 text-right">
                             <div id="footerbarDropdown" className="footerbar-collapse footer-border">
-                                <ul className="footerbar mx-auto">
+                                <ul className="footerbar">
                                     <li className=" dropdown">
-                                        <Link className="nav-link" to="/" data-toggle="dropdown">English <FiChevronDown /></Link>
+                                        <Link className="dropdown-link" to="/" data-toggle="dropdown">English <FiChevronDown /></Link>
                                         <div className="dropdown-menu">
                                             <Link to="/" className="dropdown-item">
                                                     English
