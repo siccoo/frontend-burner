@@ -51,10 +51,13 @@ const Footer = () => {
                                     <FacebookIcon />
                                 </a>
                                 <a href="https://facebook.com" rel="">
-                                    <FacebookIcon />
+                                    <TwitterIcon />
                                 </a>
                                 <a href="https://linkedin.com" rel="">
                                     <LinkedinIcon />
+                                </a>
+                                <a href="https://youtube.com" rel="">
+                                    <YoutubeIcon />
                                 </a>
                             </div>
                         </div>
