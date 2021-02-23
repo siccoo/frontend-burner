@@ -114,8 +114,8 @@
 }
 
 .social_info .footer-icon {
-        background-color: #454545;
-        color: #fff;
+        background-color: #fff;
+        color:  #454545;   
         width: 2.5rem;
         height: 2.5rem;
         /* border-radius: 50%; */
