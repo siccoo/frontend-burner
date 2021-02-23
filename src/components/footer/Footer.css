@@ -58,3 +58,25 @@
     color: #454545;
     text-transform: uppercase;
 }
+
+.footer-section .unorder-list {
+    list-style-type: none;
+}
+
+.footer-section .footer-list {
+    font-family: "Open Sans Condensed";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    color: #01001d99 !important;
+    list-style: none;
+    text-decoration: none !important;
+}
+
+@media only screen and (max-width:1024px) {
+    .footer-section .footer-list {
+        font-size: 11px;
+        line-height: 25px;
+    }
+}
