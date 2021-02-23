@@ -122,3 +122,12 @@ input[type="tel"] {
         font-size: 12px;
     }
 }
+
+.contact-header h3 {
+    font-family: "Open Sans Condensed";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333333;
+}

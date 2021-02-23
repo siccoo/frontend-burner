@@ -76,7 +76,7 @@ const Contact = () => {
                                 <button type="submit" className="">Contact Us</button>
                             </form>
                         </div>
-                        <div className="col-md-6 align-items-center">
+                        <div className="col-md-6 align-items-center" style={{ marginTop: 200 + "px"}}>
                             <div className="row">
                                 <div className="col-md-12">
                                     <h3>Request a call from an expert</h3>
