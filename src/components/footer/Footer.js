@@ -4,6 +4,12 @@ import "./Footer.css";
 
 import Logo from "../../images/burner.png";
 import { FiChevronDown } from "react-icons/fi";
+import {
+    FaFacebookF as FacebookIcon,
+    FaTwitter as TwitterIcon,
+    FaLinkedinIn as LinkedinIcon,
+    FaYoutubeSquare as YoutubeIcon,
+  } from "react-icons/fa";
 
 const Footer = () => {
     return (
