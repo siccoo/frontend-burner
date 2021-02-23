@@ -77,7 +77,17 @@ const Contact = () => {
                             </form>
                         </div>
                         <div className="col-md-6">
-                            
+                            <div className="row">
+                                <div className="col-md-12">
+                                    <h3>Request a call from an expert</h3>
+                                    <p>Having thoughts on which product works best for you?  Fill the form and our expert will reach out to you.</p>
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="col-md-12">
+                                    <h3>Our offices around Africa </h3>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

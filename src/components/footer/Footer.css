@@ -136,6 +136,13 @@
     /* margin-left: 30px; */
 }
 
+@media only screen and (max-width:1024px) {
+    .footer-section h6 {
+        font-size: 11px;
+        line-height: 25px;
+    }
+}
+
 .footer-section .unorder-list {
     list-style-type: none;
     padding: 0;
