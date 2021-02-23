@@ -94,7 +94,7 @@
 }
 
 .enterprise3 h3 {
-    margin: auto;
+    /* margin: 60px 10px 0; */
     font-family: "Open Sans Condensed";
     font-style: normal;
     font-weight: normal;
@@ -111,6 +111,7 @@
 }
 
 .enterprise3 p {
+    /* padding: 0 10px; */
     font-family: "Open Sans Condensed";
     font-style: normal;
     font-weight: normal;
