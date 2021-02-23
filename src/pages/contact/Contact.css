@@ -145,7 +145,7 @@ input[type="tel"] {
     font-weight: normal;
     font-size: 20px;
     line-height: 30px;
-    color: rgba(69, 69, 69, 0.8);
+    color: #454545cc;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
@@ -168,5 +168,21 @@ input[type="tel"] {
     .contact-header h6 {
         font-size: 14px;
         line-height: 25px;
+    }
+}
+
+.contact-header p {
+    font-family: "Open Sans Condensed";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    color: #01001d99;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .contact-header p {
+        font-size: 12px;
+        line-height: 24px;
     }
 }
