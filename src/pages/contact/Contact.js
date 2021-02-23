@@ -76,16 +76,81 @@ const Contact = () => {
                                 <button type="submit" className="">Contact Us</button>
                             </form>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 align-items-center">
                             <div className="row">
                                 <div className="col-md-12">
                                     <h3>Request a call from an expert</h3>
                                     <p>Having thoughts on which product works best for you?  Fill the form and our expert will reach out to you.</p>
                                 </div>
                             </div>
-                            <div className="row">
+                            <div className="row  mt-4">
                                 <div className="col-md-12">
-                                    <h3>Our offices around Africa </h3>
+                                    <h3>Our offices around Africa</h3>
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="col-md-4">
+                                    <h6>NIGERIA</h6>
+                                    <p>33a, Adeola Odeku, Victoria 
+                                        <br />Island, Lagos.
+                                        <br />+234-(0)-8000000000
+                                    </p>
+                                </div>
+                                <div className="col-md-4">
+                                    <h6>GHANA</h6>
+                                    <p>45, El-Senoussi Street,  
+                                        <br />Accra
+                                        <br />+233-(0)-277619819
+                                    </p>
+                                </div>
+                                <div className="col-md-4">
+                                    <h6>SOUTH AFRICA</h6>
+                                    <p>474, Cheriton Drive, Port   
+                                        <br />Shepstone, Kwazulu-Natal
+                                        <br />+27-(0)-857926978
+                                    </p>
+                                </div>
+                                <div className="col-md-4">
+                                    <h6>NIGERIA</h6>
+                                    <p>33a, Adeola Odeku, Victoria 
+                                        <br />Island, Lagos.
+                                        <br />+234-(0)-8000000000
+                                    </p>
+                                </div>
+                                <div className="col-md-4">
+                                    <h6>GHANA</h6>
+                                    <p>45, El-Senoussi Street,  
+                                        <br />Accra
+                                        <br />+233-(0)-277619819
+                                    </p>
+                                </div>
+                                <div className="col-md-4">
+                                    <h6>SOUTH AFRICA</h6>
+                                    <p>474, Cheriton Drive, Port   
+                                        <br />Shepstone, Kwazulu-Natal
+                                        <br />+27-(0)-857926978
+                                    </p>
+                                </div>
+                                <div className="col-md-4">
+                                    <h6>NIGERIA</h6>
+                                    <p>33a, Adeola Odeku, Victoria 
+                                        <br />Island, Lagos.
+                                        <br />+234-(0)-8000000000
+                                    </p>
+                                </div>
+                                <div className="col-md-4">
+                                    <h6>GHANA</h6>
+                                    <p>45, El-Senoussi Street,  
+                                        <br />Accra
+                                        <br />+233-(0)-277619819
+                                    </p>
+                                </div>
+                                <div className="col-md-4">
+                                    <h6>SOUTH AFRICA</h6>
+                                    <p>474, Cheriton Drive, Port   
+                                        <br />Shepstone, Kwazulu-Natal
+                                        <br />+27-(0)-857926978
+                                    </p>
                                 </div>
                             </div>
                         </div>
