@@ -1,8 +1,9 @@
 import React from 'react';
-
+import { Link } from "react-router-dom";
 import "./Footer.css";
 
 import Logo from "../../images/burner.png";
+import { FiChevronDown } from "react-icons/fi";
 
 const Footer = () => {
     return (
@@ -13,8 +14,22 @@ const Footer = () => {
                         <div className="col-md-6 text-left">
                             <img src={Logo} alt="oneburner" className="footer-logo" />
                         </div>
-                        <div className="col-md-6 text-left">
-                            {/* <img src={Logo} alt="oneburner" className="footer-logo" /> */}
+                        <div className="col-md-6 text-right">
+                            <div id="footerbarDropdown" className="footerbar-collapse footer-border">
+                                <ul className="footerbar mx-auto">
+                                    <li className=" dropdown">
+                                        <Link className="nav-link" to="/" data-toggle="dropdown">English <FiChevronDown /></Link>
+                                        <div className="dropdown-menu">
+                                            <Link to="/" className="dropdown-item">
+                                                    English
+                                            </Link>
+                                            <Link to="/" className="dropdown-item">
+                                                    Spanish
+                                            </Link>
+                                        </div>  
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                     <div className="row">
@@ -23,6 +38,7 @@ const Footer = () => {
                             <span>Terms of Use | Privacy Policy</span><br/><br/>
                             <span>Get in touch</span>
                             <p>+234-80-000-0000</p>
+
                         </div>
                         <div className="col-md-1"></div>
                         <div className="col-md-1"></div>
