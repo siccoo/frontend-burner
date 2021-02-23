@@ -80,7 +80,7 @@ const Contact = () => {
                             <div className="row">
                                 <div className="col-md-12">
                                     <h3>Request a call from an expert</h3>
-                                    <p>Having thoughts on which product works best for you?  Fill the form and our expert will reach out to you.</p>
+                                    <p className="child">Having thoughts on which product works best for you?  Fill the form and our expert will reach out to you.</p>
                                 </div>
                             </div>
                             <div className="row  mt-4">

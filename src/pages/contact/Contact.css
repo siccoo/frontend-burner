@@ -131,3 +131,27 @@ input[type="tel"] {
     line-height: 48px;
     color: #333333;
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .contact-header h3 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+}
+
+.contact-header .child {
+    font-family: "Open Sans Condensed";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(69, 69, 69, 0.8);
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .contact-header .child {
+        font-size: 14px;
+        line-height: 25px;
+    }
+}
+
