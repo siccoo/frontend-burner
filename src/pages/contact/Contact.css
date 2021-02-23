@@ -155,3 +155,18 @@ input[type="tel"] {
     }
 }
 
+.contact-header h6 {
+    font-family: "Open Sans Condensed";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    color: #455A64;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .contact-header h6 {
+        font-size: 14px;
+        line-height: 25px;
+    }
+}
