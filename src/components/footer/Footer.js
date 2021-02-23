@@ -59,19 +59,16 @@ const Footer = () => {
                             <h6>Company</h6>
                             <ul className="unorder-list">
                                 <li className="list-items">
-                                    <a href="https://events.salesruby.com" target="_blank" rel="noreferrer" className="footer-list">Events</a>
+                                    <a href="/" target="_blank" rel="noreferrer" className="footer-list">About Us</a>
                                 </li>
                                 <li className="list-items">
-                                    <a href="/careers" className="footer-list">Careers</a>
+                                    <a href="/" className="footer-list">Contact Us</a>
                                 </li>
                                 <li className="list-items">
-                                    <a href="/about" className="footer-list">About Us</a>
+                                    <a href="/" className="footer-list">Careers</a>
                                 </li>
                                 <li className="list-items">
-                                    <a href="/contact" className="footer-list">Contact Us</a>
-                                </li>
-                                <li className="list-items">
-                                    <a href="/pricing" className="footer-list">Pricing</a>
+                                    <a href="/" className="footer-list">In the News</a>
                                 </li>
                             </ul>
                         </div>
