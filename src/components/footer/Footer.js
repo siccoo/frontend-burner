@@ -28,6 +28,23 @@ const Footer = () => {
                         <div className="col-md-1"></div>
                         <div className="col-md-2">
                             <h6>Product</h6>
+                            <ul className="unorder-list">
+                                <li className="list-items">
+                                    <a href="https://events.salesruby.com" target="_blank" rel="noreferrer" className="footer-list">Events</a>
+                                </li>
+                                <li className="list-items">
+                                    <a href="/careers" className="footer-list">Careers</a>
+                                </li>
+                                <li className="list-items">
+                                    <a href="/about" className="footer-list">About Us</a>
+                                </li>
+                                <li className="list-items">
+                                    <a href="/contact" className="footer-list">Contact Us</a>
+                                </li>
+                                <li className="list-items">
+                                    <a href="/pricing" className="footer-list">Pricing</a>
+                                </li>
+                            </ul>
                         </div>
                         <div className="col-md-2">
                             <h6>Company</h6>
