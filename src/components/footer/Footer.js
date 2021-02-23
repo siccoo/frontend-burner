@@ -108,19 +108,31 @@ const Footer = () => {
                             <h6>Resources</h6>
                             <ul className="unorder-list">
                                 <li className="list-items">
-                                    <a href="https://events.salesruby.com" target="_blank" rel="noreferrer" className="footer-list">Events</a>
+                                    <a href="/" target="_blank" rel="noreferrer" className="footer-list">Community</a>
                                 </li>
                                 <li className="list-items">
-                                    <a href="/careers" className="footer-list">Careers</a>
+                                    <a href="/" className="footer-list">Guides</a>
                                 </li>
                                 <li className="list-items">
-                                    <a href="/about" className="footer-list">About Us</a>
+                                    <a href="/" className="footer-list">Templates</a>
                                 </li>
                                 <li className="list-items">
-                                    <a href="/contact" className="footer-list">Contact Us</a>
+                                    <a href="/" className="footer-list">Video Tutorials</a>
                                 </li>
                                 <li className="list-items">
-                                    <a href="/pricing" className="footer-list">Pricing</a>
+                                    <a href="/" className="footer-list">Professional Services</a>
+                                </li>
+                                <li className="list-items">
+                                    <a href="/" className="footer-list">Knowledge Base</a>
+                                </li>
+                                <li className="list-items">
+                                    <a href="/" className="footer-list">Blog</a>
+                                </li>
+                                <li className="list-items">
+                                    <a href="/" className="footer-list">Webinars</a>
+                                </li>
+                                <li className="list-items">
+                                    <a href="/" className="footer-list">Find a Partner</a>
                                 </li>
                             </ul>
                         </div>
