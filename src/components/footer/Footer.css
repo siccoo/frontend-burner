@@ -165,3 +165,7 @@
         line-height: 25px;
     }
 }
+
+.footer-section hr {
+    border: 1px solid rgba(69, 69, 69, 0.13);
+}

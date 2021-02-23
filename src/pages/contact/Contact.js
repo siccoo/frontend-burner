@@ -4,7 +4,7 @@ import Footer from "../../components/footer/Footer";
 
 import "./Contact.css";
 
-import Flag from "../../images/Vector (5).png";
+// import Flag from "../../images/Vector (5).png";
 
 const Contact = () => {
     useEffect(() => {
