@@ -30,19 +30,28 @@ const Footer = () => {
                             <h6>Product</h6>
                             <ul className="unorder-list">
                                 <li className="list-items">
-                                    <a href="https://events.salesruby.com" target="_blank" rel="noreferrer" className="footer-list">Events</a>
+                                    <a href="/" target="_blank" rel="noreferrer" className="footer-list">Features</a>
                                 </li>
                                 <li className="list-items">
-                                    <a href="/careers" className="footer-list">Careers</a>
+                                    <a href="/" className="footer-list">Enterprise</a>
                                 </li>
                                 <li className="list-items">
-                                    <a href="/about" className="footer-list">About Us</a>
+                                    <a href="/" className="footer-list">Security</a>
                                 </li>
                                 <li className="list-items">
-                                    <a href="/contact" className="footer-list">Contact Us</a>
+                                    <a href="/" className="footer-list">Trust</a>
                                 </li>
                                 <li className="list-items">
-                                    <a href="/pricing" className="footer-list">Pricing</a>
+                                    <a href="/" className="footer-list">Customer Stories</a>
+                                </li>
+                                <li className="list-items">
+                                    <a href="/" className="footer-list">Pricing</a>
+                                </li>
+                                <li className="list-items">
+                                    <a href="/" className="footer-list">Integrations</a>
+                                </li>
+                                <li className="list-items">
+                                    <a href="/" className="footer-list">Oneburner Partners</a>
                                 </li>
                             </ul>
                         </div>
