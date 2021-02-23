@@ -134,22 +134,22 @@ const Contact = () => {
                                 <div className="col-md-4">
                                     <h6>MALI</h6>
                                     <p>22, Badalabougou Est., 
-                                        <br />Island, Lagos.
-                                        <br />+234-(0)-8000000000
+                                        <br />Bamako.
+                                        <br />+223-(0)-78175387
                                     </p>
                                 </div>
                                 <div className="col-md-4">
-                                    <h6>GHANA</h6>
-                                    <p>45, El-Senoussi Street,  
-                                        <br />Accra
-                                        <br />+233-(0)-277619819
+                                    <h6>TANZANIA</h6>
+                                    <p>Mbezi Beach, P.O.B: 70339,  
+                                        <br />Dar Salaam 
+                                        <br />+255-(0)-222120119
                                     </p>
                                 </div>
                                 <div className="col-md-4">
-                                    <h6>SOUTH AFRICA</h6>
-                                    <p>474, Cheriton Drive, Port   
-                                        <br />Shepstone, Kwazulu-Natal
-                                        <br />+27-(0)-857926978
+                                    <h6>TOGO</h6>
+                                    <p>10, E rue des Echis,   
+                                        <br />Lome
+                                        <br />+228-(0)-22229600
                                     </p>
                                 </div>
                             </div>
