@@ -111,29 +111,29 @@ const Contact = () => {
                                     </p>
                                 </div>
                                 <div className="col-md-4">
-                                    <h6>NIGERIA</h6>
-                                    <p>33a, Adeola Odeku, Victoria 
-                                        <br />Island, Lagos.
-                                        <br />+234-(0)-8000000000
+                                    <h6>EGYPT</h6>
+                                    <p>72, Gameat El-Dewal 
+                                        <br />El-Arabia St., Giza.
+                                        <br />+20-(0)-35924295
                                     </p>
                                 </div>
                                 <div className="col-md-4">
-                                    <h6>GHANA</h6>
-                                    <p>45, El-Senoussi Street,  
-                                        <br />Accra
-                                        <br />+233-(0)-277619819
+                                    <h6>KENYA</h6>
+                                    <p>41, Enterprise Rd., Industrial  
+                                        <br />Area , Niarobi
+                                        <br />+254-(0)-20536766
                                     </p>
                                 </div>
                                 <div className="col-md-4">
-                                    <h6>SOUTH AFRICA</h6>
-                                    <p>474, Cheriton Drive, Port   
-                                        <br />Shepstone, Kwazulu-Natal
-                                        <br />+27-(0)-857926978
+                                    <h6>TUNISIA</h6>
+                                    <p>13, Rue de Makthar, Dhraa   
+                                        <br />Governorate Kasserine
+                                        <br />+216-(0)-77367410
                                     </p>
                                 </div>
                                 <div className="col-md-4">
-                                    <h6>NIGERIA</h6>
-                                    <p>33a, Adeola Odeku, Victoria 
+                                    <h6>MALI</h6>
+                                    <p>22, Badalabougou Est., 
                                         <br />Island, Lagos.
                                         <br />+234-(0)-8000000000
                                     </p>
