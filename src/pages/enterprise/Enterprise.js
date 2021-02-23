@@ -80,7 +80,13 @@ const Enterprise = () => {
                         <div className="e-wrapper mx-auto">
                             <div className="col-sm-12 col-md-10 offset-md-1">
                                 <div className="row">
-
+                                    <div className="col-md-3">
+                                        <img className="award" src={Award} alt="alternative" />
+                                    </div>
+                                    <div className="col-md-9">
+                                        <h3>Best Collaboration Software</h3>
+                                        <p>Africa tech coalition award 2020</p>
+                                    </div>
                                 </div>
                             </div>
                             {/* <div className="col-md-6 text-right">
