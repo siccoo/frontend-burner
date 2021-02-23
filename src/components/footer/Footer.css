@@ -120,6 +120,7 @@
 
 .footer-section .unorder-list {
     list-style-type: none;
+    padding: 0;
 }
 
 .footer-section .footer-list {

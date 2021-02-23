@@ -9,7 +9,7 @@ import {
     FaTwitter as TwitterIcon,
     FaLinkedinIn as LinkedinIcon,
     FaYoutubeSquare as YoutubeIcon,
-  } from "react-icons/fa";
+} from "react-icons/fa";
 
 const Footer = () => {
     return (
@@ -46,7 +46,17 @@ const Footer = () => {
                             <span>Terms of Use | Privacy Policy</span><br/><br/>
                             <span>Get in touch</span>
                             <p>+234-80-000-0000</p>
-
+                            <div className="social_info">
+                                <a href="https://twitter.com" rel="">
+                                    <FacebookIcon />
+                                </a>
+                                <a href="https://facebook.com" rel="">
+                                    <FacebookIcon />
+                                </a>
+                                <a href="https://linkedin.com" rel="">
+                                    <LinkedinIcon />
+                                </a>
+                            </div>
                         </div>
                         <div className="col-md-1"></div>
                         <div className="col-md-1"></div>
