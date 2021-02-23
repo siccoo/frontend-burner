@@ -47,16 +47,18 @@ const Footer = () => {
                             <span>Get in touch</span>
                             <p>+234-80-000-0000</p>
                             <div className="social_info">
-                                <a href="https://twitter.com" rel="">
-                                    <FacebookIcon />
-                                </a>
-                                <a href="https://facebook.com" rel="">
+                                <div>
+                                    <a href="https://twitter.com" rel="" className="footer-icon">
+                                        <FacebookIcon />
+                                    </a>
+                                </div>
+                                <a href="https://facebook.com" rel="" className="footer-icon">
                                     <TwitterIcon />
                                 </a>
-                                <a href="https://linkedin.com" rel="">
+                                <a href="https://linkedin.com" rel="" className="footer-icon">
                                     <LinkedinIcon />
                                 </a>
-                                <a href="https://youtube.com" rel="">
+                                <a href="https://youtube.com" rel="" className="footer-icon">
                                     <YoutubeIcon />
                                 </a>
                             </div>

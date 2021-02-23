@@ -107,6 +107,24 @@
     }
 }
 
+.footer-section .social_info {
+        display: flex;
+      justify-content: flex-end;
+      padding: 1rem 0 0 0 0;
+}
+
+.social_info .footer-icon {
+        background-color: #454545;
+        color: #fff;
+        width: 2.5rem;
+        height: 2.5rem;
+        /* border-radius: 50%; */
+        /* margin: 0 0.5rem; */
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+}
+
 .footer-section h6 {
     font-family: "Open Sans Condensed";
     font-style: normal;
