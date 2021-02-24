@@ -83,7 +83,7 @@ const Enterprise = () => {
                                     <div className="col-md-3">
                                         <img className="award" src={Award} alt="alternative" />
                                     </div>
-                                    <div className="col-md-9 align-self-center ml-0.2">
+                                    <div className="col-md-9 align-self-center pl-4">
                                         <h3>Best Collaboration Software</h3>
                                         <p>Africa tech coalition award 2020</p>
                                     </div>
