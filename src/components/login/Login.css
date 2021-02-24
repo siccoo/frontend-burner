@@ -232,16 +232,16 @@ input[type="password"] {
     font-size: 20px;
     line-height: 27px;
     color: #462686;
-    margin: auto;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+    margin: 292px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
     text-align: center;
     text-decoration: none;
-    /* margin-bottom: 50px; */
 }
 
 @media only screen and (max-width:1024px) {
     .login-card .forgot-password {
        font-size: 12px; 
        line-height: 22px;
+       margin: auto;
     }
 }
 
